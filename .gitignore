@@ -1,0 +1,87 @@
+# ======================================
+# OS / Editor
+# ======================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ======================================
+# Build / Dependency
+# ======================================
+target/
+build/
+out/
+node_modules/
+.gradle/
+*.class
+*.jar
+*.war
+
+# ======================================
+# Logs
+# ======================================
+*.log
+logs/
+log/
+
+# ======================================
+# Kafka Runtime Data (절대 커밋 금지)
+# ======================================
+kafka-logs/
+data/
+tmp/
+tmp-kafka/
+
+# docker 폴더 아래에서 생길 수 있는 데이터 디렉토리들
+docker/**/data/
+docker/**/logs/
+docker/**/kafka-logs/
+docker/**/tmp/
+
+# ======================================
+# Docker
+# ======================================
+.env
+.env.*
+docker-data/
+docker-volume/
+docker-volumes/
+
+# ======================================
+# Local Scripts / Secrets
+# ======================================
+*.pem
+*.key
+*.crt
+secrets/
+config/local/
+*.properties.local
+*.yml.local
+*.yaml.local
+
+# ======================================
+# Practice / Experiment Noise
+# ======================================
+practice/**/output/
+practice/**/results/
+practice/**/.cache/
+practice/**/.venv/
+
+# ======================================
+# Python
+# ======================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ======================================
+# Misc
+# ======================================
+coverage/
+*.tmp
+*.bak
+
